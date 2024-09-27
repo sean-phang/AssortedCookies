@@ -28,35 +28,50 @@ params = {
     "departure_id": "SIN",
     "arrival_id": "KIX",
     "outbound_date": "2024-09-28",
-    "return_date": "2024-10-04",
+    # "return_date": "2024-10-04",
     "currency": "SGD",
     "adults": "1",
+    # 0 - Any number of stops (default)
+    # 1 - Nonstop only
+    # 2 - 1 stop or fewer
+    # 3 - 2 stops or fewer
     "stops": "1",
-    "api_key": "fc061f142657710719e90fd8f900c49886772f25ce57ee5f9e1fad428c791cea"
+    # 1 - Round trip (default)
+    # 2 - One way
+    # 3 - Multi-city
+    "type": "2",
+    "api_key": "API_KEY"
 }
 
-trips = []
-
-with open('test.json') as f:
-    results = json.load(f)
+def read_json_data(file):
+    trips = []
+    results = json.load(file)
 
     for trip in results["other_flights"]:
         flights = []
         for flight_info in trip["flights"]:
             flights.append(Flight(flight_info["flight_number"],
-                           flight_info["departure_airport"],
-                           flight_info["arrival_airport"],
-                           flight_info["airplane"],
-                           flight_info["airline"],
-                           flight_info["duration"]))
+                        flight_info["departure_airport"],
+                        flight_info["arrival_airport"],
+                        flight_info["airplane"],
+                        flight_info["airline"],
+                        flight_info["duration"]))
             
         trips.append(Trip(results["search_parameters"]["departure_id"],
-                          results["search_parameters"]["arrival_id"],
-                          results["search_parameters"]["outbound_date"],
-                          results["search_parameters"]["return_date"],
-                          trip["total_duration"],
-                          trip["price"],
-                          trip["type"],
-                          trip["flights"]))
-        
-print(trips[0].departure_airport)
+                        results["search_parameters"]["arrival_id"],
+                        results["search_parameters"]["outbound_date"],
+                        results["search_parameters"]["return_date"],
+                        trip["total_duration"],
+                        trip["price"],
+                        trip["type"],
+                        trip["flights"]))
+    return trips
+
+def main():
+    with open('test.json') as f:
+        trips = read_json_data(f)
+                
+        print(trips[0].departure_airport)
+
+if __name__ == "__main__":
+    main()
