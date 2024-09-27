@@ -23,9 +23,14 @@ class Flight:
         self.duration = duration
 
 AIRPORTS = ["SIN", "KIX", "HND"]
+SOURCE = "SIN"
 MIN_STAY = 3
+TOTAL_DURATION = 14
 START_DATE = "2024-10-19"
 END_DATE = "2024-11-03"
+
+#  from datetime import datetime, timedelta
+#  datetime.strptime(d, '%Y-%m-%d').date() + timedelta(days=1)
 
 params = {
     "engine": "google_flights",
