@@ -1,5 +1,6 @@
 from serpapi import GoogleSearch
 import json
+import os
 
 class Trip:
    def __init__(self, departure_airport, arrival_airport, outbound_date, return_date, duration, price, type, flights):
@@ -20,6 +21,11 @@ class Flight:
         self.airplane = airplane
         self.airline = airline
         self.duration = duration
+
+AIRPORTS = ["SIN", "KIX", "HND"]
+MIN_STAY = 3
+START_DATE = "2024-10-19"
+END_DATE = "2024-11-03"
 
 params = {
     "engine": "google_flights",
@@ -68,10 +74,24 @@ def read_json_data(file):
     return trips
 
 def main():
-    with open('test.json') as f:
-        trips = read_json_data(f)
-                
-        print(trips[0].departure_airport)
+    # search = GoogleSearch(params)
+    # results = search.get_dict()
+    os.makedirs("./flight_data", exist_ok=True)
+    filename = None
+
+    trips = None
+    with open('/home/sean/Documents/TrashMountain/flight data checker/test.json', 'r') as f:
+        # trips = read_json_data(f)
+        results = json.load(f)
+    
+        filename = "_".join([results["search_parameters"]["departure_id"],
+                             results["search_parameters"]["arrival_id"],
+                             results["search_parameters"]["outbound_date"],
+                             results["search_parameters"]["return_date"],])
+
+        with open("flight_data/"+filename, "w") as fw:
+            fw.write(json.dumps(results))
+            # print(trips[0].departure_airport)
 
 if __name__ == "__main__":
     main()
