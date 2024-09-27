@@ -1,0 +1,499 @@
+{
+  "search_metadata": {
+    "id": "66f654e72b5fa7d2e894ff95",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/e34f29e0e6e19120/66f654e72b5fa7d2e894ff95.json",
+    "created_at": "2024-09-27 06:47:03 UTC",
+    "processed_at": "2024-09-27 06:47:03 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=sg&curr=SGD&tfs=CBwQAhogEgoyMDI0LTA5LTI4KAFqBwgBEgNTSU5yBwgBEgNLSVgaIBIKMjAyNC0xMC0wNCgBagcIARIDS0lYcgcIARIDU0lOQgEBSAFwAZgBAQ==",
+    "raw_html_file": "https://serpapi.com/searches/e34f29e0e6e19120/66f654e72b5fa7d2e894ff95.html",
+    "prettify_html_file": "https://serpapi.com/searches/e34f29e0e6e19120/66f654e72b5fa7d2e894ff95.prettify",
+    "total_time_taken": 4.77
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "sg",
+    "departure_id": "SIN",
+    "arrival_id": "KIX",
+    "outbound_date": "2024-09-28",
+    "return_date": "2024-10-04",
+    "adults": 1,
+    "stops": 1,
+    "currency": "SGD"
+  },
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Singapore Changi Airport",
+            "id": "SIN",
+            "time": "2024-09-28 07:20"
+          },
+          "arrival_airport": {
+            "name": "Kansai International Airport",
+            "id": "KIX",
+            "time": "2024-09-28 15:05"
+          },
+          "duration": 405,
+          "airplane": "Boeing 787",
+          "airline": "Scoot",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+          "travel_class": "Economy",
+          "flight_number": "TR 820",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Carbon emissions estimate: 347 kg"
+          ]
+        }
+      ],
+      "total_duration": 405,
+      "carbon_emissions": {
+        "this_flight": 348000,
+        "typical_for_this_route": 364000,
+        "difference_percent": -4
+      },
+      "price": 880,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TR.png",
+      "departure_token": "WyJDalJJY0RKU1NGQjJiMHhOVUd0QlFtcEtVMmRDUnkwdExTMHRMUzB0TFhCbWJtb3hPVUZCUVVGQlIySXlWazl6VFV3M2RHVkJFZ1ZVVWpneU1Cb0xDTUN2QlJBQ0dnTlRSMFE0SEhEZ2xnUT0iLFtbIlNJTiIsIjIwMjQtMDktMjgiLCJLSVgiLG51bGwsIlRSIiwiODIwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Singapore Changi Airport",
+            "id": "SIN",
+            "time": "2024-09-28 13:55"
+          },
+          "arrival_airport": {
+            "name": "Kansai International Airport",
+            "id": "KIX",
+            "time": "2024-09-28 21:35"
+          },
+          "duration": 400,
+          "airplane": "Boeing 787",
+          "airline": "Singapore Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+          "travel_class": "Economy",
+          "flight_number": "SQ 622",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 293 kg"
+          ]
+        }
+      ],
+      "total_duration": 400,
+      "carbon_emissions": {
+        "this_flight": 294000,
+        "typical_for_this_route": 364000,
+        "difference_percent": -19
+      },
+      "price": 1200,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+      "departure_token": "WyJDalJJY0RKU1NGQjJiMHhOVUd0QlFtcEtVMmRDUnkwdExTMHRMUzB0TFhCbWJtb3hPVUZCUVVGQlIySXlWazl6VFV3M2RHVkJFZ1ZUVVRZeU1ob0xDTFNwQnhBQ0dnTlRSMFE0SEhDUjJRVT0iLFtbIlNJTiIsIjIwMjQtMDktMjgiLCJLSVgiLG51bGwsIlNRIiwiNjIyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Singapore Changi Airport",
+            "id": "SIN",
+            "time": "2024-09-28 01:25"
+          },
+          "arrival_airport": {
+            "name": "Kansai International Airport",
+            "id": "KIX",
+            "time": "2024-09-28 08:50"
+          },
+          "duration": 385,
+          "airplane": "Boeing 787",
+          "airline": "Singapore Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+          "travel_class": "Economy",
+          "flight_number": "SQ 618",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 293 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 385,
+      "carbon_emissions": {
+        "this_flight": 294000,
+        "typical_for_this_route": 364000,
+        "difference_percent": -19
+      },
+      "price": 1297,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+      "departure_token": "WyJDalJJY0RKU1NGQjJiMHhOVUd0QlFtcEtVMmRDUnkwdExTMHRMUzB0TFhCbWJtb3hPVUZCUVVGQlIySXlWazl6VFV3M2RHVkJFZ1ZUVVRZeE9Cb0xDTWIwQnhBQ0dnTlRSMFE0SEhES2t3WT0iLFtbIlNJTiIsIjIwMjQtMDktMjgiLCJLSVgiLG51bGwsIlNRIiwiNjE4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Singapore Changi Airport",
+            "id": "SIN",
+            "time": "2024-09-28 08:30"
+          },
+          "arrival_airport": {
+            "name": "Kansai International Airport",
+            "id": "KIX",
+            "time": "2024-09-28 16:10"
+          },
+          "duration": 400,
+          "airplane": "Boeing 787",
+          "airline": "Singapore Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+          "travel_class": "Economy",
+          "flight_number": "SQ 620",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 293 kg"
+          ]
+        }
+      ],
+      "total_duration": 400,
+      "carbon_emissions": {
+        "this_flight": 294000,
+        "typical_for_this_route": 364000,
+        "difference_percent": -19
+      },
+      "price": 1671,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+      "departure_token": "WyJDalJJY0RKU1NGQjJiMHhOVUd0QlFtcEtVMmRDUnkwdExTMHRMUzB0TFhCbWJtb3hPVUZCUVVGQlIySXlWazl6VFV3M2RHVkJFZ1ZUVVRZeU1Cb0xDS1NaQ2hBQ0dnTlRSMFE0SEhDajl3Yz0iLFtbIlNJTiIsIjIwMjQtMDktMjgiLCJLSVgiLG51bGwsIlNRIiwiNjIwIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 880,
+    "price_level": "high",
+    "typical_price_range": [
+      425,
+      620
+    ],
+    "price_history": [
+      [
+        1722182400,
+        493
+      ],
+      [
+        1722268800,
+        492
+      ],
+      [
+        1722355200,
+        494
+      ],
+      [
+        1722441600,
+        498
+      ],
+      [
+        1722528000,
+        538
+      ],
+      [
+        1722614400,
+        501
+      ],
+      [
+        1722700800,
+        502
+      ],
+      [
+        1722787200,
+        502
+      ],
+      [
+        1722873600,
+        511
+      ],
+      [
+        1722960000,
+        511
+      ],
+      [
+        1723046400,
+        511
+      ],
+      [
+        1723132800,
+        551
+      ],
+      [
+        1723219200,
+        551
+      ],
+      [
+        1723305600,
+        591
+      ],
+      [
+        1723392000,
+        464
+      ],
+      [
+        1723478400,
+        481
+      ],
+      [
+        1723564800,
+        551
+      ],
+      [
+        1723651200,
+        551
+      ],
+      [
+        1723737600,
+        537
+      ],
+      [
+        1723824000,
+        538
+      ],
+      [
+        1723910400,
+        538
+      ],
+      [
+        1723996800,
+        504
+      ],
+      [
+        1724083200,
+        504
+      ],
+      [
+        1724169600,
+        504
+      ],
+      [
+        1724256000,
+        504
+      ],
+      [
+        1724342400,
+        485
+      ],
+      [
+        1724428800,
+        485
+      ],
+      [
+        1724515200,
+        484
+      ],
+      [
+        1724601600,
+        479
+      ],
+      [
+        1724688000,
+        481
+      ],
+      [
+        1724774400,
+        478
+      ],
+      [
+        1724860800,
+        504
+      ],
+      [
+        1724947200,
+        504
+      ],
+      [
+        1725033600,
+        503
+      ],
+      [
+        1725120000,
+        503
+      ],
+      [
+        1725206400,
+        502
+      ],
+      [
+        1725292800,
+        487
+      ],
+      [
+        1725379200,
+        492
+      ],
+      [
+        1725465600,
+        531
+      ],
+      [
+        1725552000,
+        530
+      ],
+      [
+        1725638400,
+        532
+      ],
+      [
+        1725724800,
+        533
+      ],
+      [
+        1725811200,
+        541
+      ],
+      [
+        1725897600,
+        547
+      ],
+      [
+        1725984000,
+        535
+      ],
+      [
+        1726070400,
+        546
+      ],
+      [
+        1726156800,
+        545
+      ],
+      [
+        1726243200,
+        547
+      ],
+      [
+        1726329600,
+        599
+      ],
+      [
+        1726416000,
+        597
+      ],
+      [
+        1726502400,
+        598
+      ],
+      [
+        1726588800,
+        594
+      ],
+      [
+        1726675200,
+        665
+      ],
+      [
+        1726761600,
+        765
+      ],
+      [
+        1726848000,
+        884
+      ],
+      [
+        1726934400,
+        884
+      ],
+      [
+        1727020800,
+        883
+      ],
+      [
+        1727107200,
+        884
+      ],
+      [
+        1727193600,
+        882
+      ],
+      [
+        1727280000,
+        882
+      ],
+      [
+        1727366400,
+        880
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "SIN",
+            "name": "Singapore Changi Airport"
+          },
+          "city": "Singapore",
+          "country": "Singapore",
+          "country_code": "SG",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPxNDQYUBDKl_Cnb-2R_TakwdFGzKIpvsMBeDdYwNHK_c2jUY6LVQ5R_mwZDf9hOuu6iHgYjrL87eDZw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSp10Y3G-u5LPBzRWABhOUD7BGcBspacZc2r31UP6QmzLmyprerN-6BZ5wZkdsDXngRuIYCPQI8Ny3uYjbRegATm48AJfppuLgpsc0mhsE"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "KIX",
+            "name": "Kansai International Airport"
+          },
+          "city": "Osaka",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTrQEGi0u09QEhaXC7jvOA-72dXN569lL-E39eTh1dLlQH-HPBVXJvLJ1GSX2x3oZ4R64EfT66yJkmlA",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3jKI7Lkj9P49olywFLeY1N_JCP0sLdkXx44vXuyBdWWF2Qu4FCz3dwTl_18a5QGqoRE0_hIHdKSQfmwxATIxo97rwtP0bi082GpSANwM"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "KIX",
+            "name": "Kansai International Airport"
+          },
+          "city": "Osaka",
+          "country": "Japan",
+          "country_code": "JP",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTrQEGi0u09QEhaXC7jvOA-72dXN569lL-E39eTh1dLlQH-HPBVXJvLJ1GSX2x3oZ4R64EfT66yJkmlA",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3jKI7Lkj9P49olywFLeY1N_JCP0sLdkXx44vXuyBdWWF2Qu4FCz3dwTl_18a5QGqoRE0_hIHdKSQfmwxATIxo97rwtP0bi082GpSANwM"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "SIN",
+            "name": "Singapore Changi Airport"
+          },
+          "city": "Singapore",
+          "country": "Singapore",
+          "country_code": "SG",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTPxNDQYUBDKl_Cnb-2R_TakwdFGzKIpvsMBeDdYwNHK_c2jUY6LVQ5R_mwZDf9hOuu6iHgYjrL87eDZw",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSp10Y3G-u5LPBzRWABhOUD7BGcBspacZc2r31UP6QmzLmyprerN-6BZ5wZkdsDXngRuIYCPQI8Ny3uYjbRegATm48AJfppuLgpsc0mhsE"
+        }
+      ]
+    }
+  ]
+}
